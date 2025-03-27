@@ -39,12 +39,13 @@ http://www.templatemo.com/tm-487-fitness
 
 </div>
 
+<?php
+include_once('C:/xampp/htdocs/Fitnessclub/parts/header.php');
+?>
 
 <!-- =========================
     NAVIGATION SECTION   
 ============================== -->
-<?php include_once 'parts/header.php'
-?>
 
 <!-- =========================
     HOME SECTION   
@@ -309,6 +310,7 @@ http://www.templatemo.com/tm-487-fitness
 <!-- =========================
     TESTIMONIAL SECTION   
 ============================== -->
+
 <section id="testimonial" class="parallax-section">
 	<div class="container">
 		<div class="row">
@@ -347,6 +349,9 @@ http://www.templatemo.com/tm-487-fitness
 	</div>
 </section>
 
+<?php
+include_once('C:/xampp/htdocs/Fitnessclub/parts/footer.php');
+?>
 
 <!-- =========================
     FOOTER SECTION   
